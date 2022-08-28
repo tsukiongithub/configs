@@ -1,0 +1,64 @@
+{
+    "extensions.ignoreRecommendations": false,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.codeLens": false,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.wordWrap": "on",
+    "beautify.config": "",
+    "editor.formatOnSave": true,
+    "explorer.confirmDelete": false,
+    "terminal.explorerKind": "external",
+    "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-cmd.exe",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDragAndDrop": false,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "bracketPairColorizer.depreciation-notice": false,
+    "editor.linkedEditing": true,
+    "liveServer.settings.CustomBrowser": "microsoft-edge",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.fontFamily": "'DroidSansMono Nerd Font', 'Droid Sans Mono', Consolas, 'Courier New', monospace",
+    "prettier.useTabs": true,
+    "prettier.tabWidth": 4,
+    "editor.lineHeight": 1.5,
+    "prettier.printWidth": 600,
+    "python.formatting.provider": "black",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/.../public/css",
+            "savePathSegmentKeys": null,
+            "savePathReplaceSegmentsWith": null
+        }
+    ],
+    "settingsSync.keybindingsPerPlatform": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.startupEditor": "none",
+    "editor.renderControlCharacters": false,
+    "emmet.includeLanguages": {
+        "jinja-html": "html",
+        "postcss": "css"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.experimental.stickyScroll.enabled": true,
+    "window.zoomLevel": 0.5,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "editor.detectIndentation": false,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.singleAttributePerLine": true,
+}
