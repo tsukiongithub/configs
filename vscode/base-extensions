@@ -1,0 +1,1 @@
+code --install-extension usernamehw.errorlens; code --install-extension zhuangtongfa.material-theme; code --install-extension vscode-icons-team.vscode-icons; code --install-extension eamodio.gitlens; code --install-extension dbaeumer.vscode-eslint;
