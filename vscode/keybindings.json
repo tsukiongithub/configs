@@ -260,5 +260,13 @@
         "key": "shift+alt+up",
         "command": "-editor.action.copyLinesUpAction",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "editor.emmet.action.balanceOut"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "editor.emmet.action.balanceIn"
     }
 ]
