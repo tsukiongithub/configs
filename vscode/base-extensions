@@ -3,4 +3,5 @@ code --install-extension zhuangtongfa.material-theme;\
 code --install-extension vscode-icons-team.vscode-icons;\
 code --install-extension eamodio.gitlens;\
 code --install-extension dbaeumer.vscode-eslint;\
-code --install-extension formulahendry.auto-rename-tag;
+code --install-extension formulahendry.auto-rename-tag;\
+code --install-extension fabiospampinato.vscode-markdown-todo
