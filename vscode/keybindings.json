@@ -262,11 +262,27 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "shift+alt+up",
-        "command": "editor.emmet.action.balanceOut"
+        "key": "ctrl+shift+[",
+        "command": "editor.fold"
     },
     {
-        "key": "shift+alt+down",
-        "command": "editor.emmet.action.balanceIn"
+        "key": "alt+enter",
+        "command": "markdown.todo.toggleTodo",
+        "when": "editorTextFocus && editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-markdown.todo.toggleTodo",
+        "when": "editorTextFocus && editorLangId == 'markdown'"
+    },
+    {
+        "key": "alt+enter",
+        "command": "todo.toggleBox",
+        "when": "editorTextFocus && editorLangId == 'todo'"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-todo.toggleBox",
+        "when": "editorTextFocus && editorLangId == 'todo'"
     }
 ]
