@@ -5,4 +5,5 @@ code --install-extension eamodio.gitlens;\
 code --install-extension dbaeumer.vscode-eslint;\
 code --install-extension formulahendry.auto-rename-tag;\
 code --install-extension fabiospampinato.vscode-todo-plus;\
-code --install-extension fabiospampinato.vscode-highlight;
+code --install-extension fabiospampinato.vscode-highlight;\
+code --install-extension esbenp.prettier-vscode;
