@@ -18,7 +18,6 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "editor.fontFamily": "'DroidSansMono Nerd Font', 'Droid Sans Mono', Consolas, 'Courier New', monospace",
     "prettier.useTabs": true,
-    "prettier.tabWidth": 4,
     "editor.lineHeight": 1.5,
     "prettier.printWidth": 600,
     "python.formatting.provider": "black",
@@ -39,13 +38,11 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "terminal.integrated.defaultProfile.linux": "zsh",
-    "workbench.colorTheme": "One Dark Pro Darker",
     "editor.detectIndentation": false,
     "editor.formatOnPaste": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.stickyScroll.enabled": true,
-    "prettier.configPath": "prettier.config.js",
-    "window.zoomLevel": 1,
+    "prettier.configPath": "prettier.config.cjs",
     "highlight.regexes": {
         "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
             "filterFileRegex": ".*(?<!CHANGELOG.md)$",
@@ -109,4 +106,13 @@
         }
     },
     "todo.indentation": "    ",
+    "window.zoomLevel": 1,
+    "scss.lint.unknownAtRules": "ignore",
+    "prettier.singleAttributePerLine": true,
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "css.lint.unknownAtRules": "ignore",
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "editor.tabSize": 2,
 }
