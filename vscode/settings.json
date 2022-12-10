@@ -39,7 +39,6 @@
     },
     "terminal.integrated.defaultProfile.linux": "zsh",
     "editor.detectIndentation": false,
-    "editor.formatOnPaste": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.stickyScroll.enabled": true,
     "prettier.configPath": "prettier.config.cjs",
@@ -114,5 +113,7 @@
     "[prisma]": {
         "editor.defaultFormatter": "Prisma.prisma"
     },
-    "editor.tabSize": 2,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
 }
