@@ -105,7 +105,6 @@
         }
     },
     "todo.indentation": "    ",
-    "window.zoomLevel": 1,
     "scss.lint.unknownAtRules": "ignore",
     "prettier.singleAttributePerLine": true,
     "workbench.colorTheme": "One Dark Pro Darker",
@@ -116,4 +115,5 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.python"
     },
+    "window.zoomLevel": 1,
 }
