@@ -1,0 +1,5 @@
+https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+
+https://ohmyz.sh/
+
+https://github.com/romkatv/powerlevel10k
