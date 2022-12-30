@@ -111,7 +111,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias c=code
-alias py3=python3
+alias py3=python3.11
 
 # create <project name>
 function create {
