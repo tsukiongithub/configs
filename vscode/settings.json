@@ -107,7 +107,7 @@
     "todo.indentation": "    ",
     "scss.lint.unknownAtRules": "ignore",
     "prettier.singleAttributePerLine": true,
-    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.colorTheme": "Rosé Pine Moon",
     "css.lint.unknownAtRules": "ignore",
     "[prisma]": {
         "editor.defaultFormatter": "Prisma.prisma"
