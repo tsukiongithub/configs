@@ -7,6 +7,7 @@ code --install-extension formulahendry.auto-rename-tag;\
 code --install-extension fabiospampinato.vscode-todo-plus;\
 code --install-extension fabiospampinato.vscode-highlight;\
 code --install-extension esbenp.prettier-vscode;\
+code --install-extension christian-kohler.path-intellisense;\
 code --install-extension ms-python.python;\
 code --install-extension ms-python.pylint;\
 code --install-extension ms-python.vscode-pylance;
