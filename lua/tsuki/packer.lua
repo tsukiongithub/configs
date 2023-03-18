@@ -5,7 +5,7 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
   -- Packer can manage itself
-  use 'wbthomason/packer.nvim' 
+  use 'wbthomason/packer.nvim'
 
   use({
 	  'rose-pine/neovim',
@@ -49,4 +49,6 @@ return require('packer').startup(function(use)
 	  }
   }
   use 'm4xshen/autoclose.nvim'
+  use 'mhartington/formatter.nvim'
+  use "terrortylor/nvim-comment"
 end)
