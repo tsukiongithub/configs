@@ -5,6 +5,32 @@ lsp.ensure_installed({
   "pylsp",
 })
 
+lsp.configure("pylsp", {
+  settings = {
+    formattingCommand = {"black"},
+    pylsp = {
+      configurationSources = {
+        "flake8",
+      },
+      plugins = {
+        pycodestyle = {
+          enabled = false,
+        },
+        flake8 = {
+          enabled = true,
+          maxLineLength = 88,
+        },
+        black = {
+          enabled = true,
+        },
+        isort = {
+          enabled = true,
+        }
+      }
+    }
+  }
+})
+
 lsp.setup()
 
 vim.diagnostic.config({
