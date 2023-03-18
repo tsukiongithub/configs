@@ -111,8 +111,11 @@
     "editor.defaultFormatter": "Prisma.prisma"
   },
   "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnType": true,
+    "editor.tabSize": 4
   },
+  "python.analysis.typeCheckingMode": "basic",
   "window.zoomLevel": 1,
   "color-highlight.languages": [
     "*"
@@ -123,4 +126,5 @@
   },
   "editor.unicodeHighlight.includeComments": false,
   "editor.tabSize": 2,
+  "editor.wordSeparators": "`~!@#$%^&*()-_=+[{]}\\|;:'\",.<>/?",
 }
