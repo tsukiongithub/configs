@@ -7,7 +7,6 @@ lsp.ensure_installed({
 
 lsp.configure("pylsp", {
   settings = {
-    formattingCommand = {"black"},
     pylsp = {
       configurationSources = {
         "flake8",
@@ -20,12 +19,6 @@ lsp.configure("pylsp", {
           enabled = true,
           maxLineLength = 88,
         },
-        black = {
-          enabled = true,
-        },
-        isort = {
-          enabled = true,
-        }
       }
     }
   }

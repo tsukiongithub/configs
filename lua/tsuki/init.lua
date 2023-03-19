@@ -2,4 +2,4 @@ require("tsuki.remap")
 require("tsuki.set")
 
 vim.cmd [[au!]]
-vim.cmd [[au BufWritePost * LspZeroFormat]]
+vim.cmd [[au BufWritePost * FormatWrite]]

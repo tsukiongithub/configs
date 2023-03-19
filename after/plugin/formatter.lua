@@ -11,6 +11,7 @@ require("formatter").setup {
   filetype = {
     python = {
       require("formatter.filetypes.python").black,
+      require("formatter.filetypes.python").isort,
     },
     -- Use the special "*" filetype for defining formatter configurations on
     -- any filetype
