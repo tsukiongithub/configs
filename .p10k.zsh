@@ -165,7 +165,7 @@
   fi
 
   # Default background color.
-  typeset -g POWERLEVEL9K_BACKGROUND="#2a273f"
+  typeset -g POWERLEVEL9K_BACKGROUND="#1f1d2e"
 
   # Separator between same-color segments on the left.
   typeset -g POWERLEVEL9K_LEFT_SUBSEGMENT_SEPARATOR='%244F\uE0B1'
@@ -227,7 +227,7 @@
   typeset -g POWERLEVEL9K_DIR_SHORTENED_FOREGROUND="#e0def4"
   # Color of the anchor directory segments. Anchor segments are never shortened. The first
   # segment is always an anchor.
-  typeset -g POWERLEVEL9K_DIR_ANCHOR_FOREGROUND="#ea9a97"
+  typeset -g POWERLEVEL9K_DIR_ANCHOR_FOREGROUND="#ebbcba"
   # Display anchor directory segments in bold.
   typeset -g POWERLEVEL9K_DIR_ANCHOR_BOLD=true
   # Don't shorten directories that contain any of these files. They are anchors.
