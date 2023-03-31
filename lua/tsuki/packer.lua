@@ -11,10 +11,7 @@ return require('packer').startup(function(use)
     'rose-pine/neovim',
     as = 'rose-pine',
     config = function()
-      require('rose-pine').setup({
-        --- @usage 'main' | 'moon'
-        dark_variant = 'moon',
-      })
+      require('rose-pine').setup({dark_variant = "moon"})
       vim.cmd.colorscheme("rose-pine")
     end
   })
