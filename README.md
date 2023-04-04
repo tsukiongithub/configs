@@ -25,7 +25,7 @@
 - mouse: Logitech G Pro Superlight
 - keyboard: Ducky One 3 Mini
   - switches: Invyr Holy Panda
-  - keycaps: Drop + RedSuns GMK Red Samurai
+  - keycaps: RedSuns GMK Red Samurai
 - monitors:
   - primary: 1080p LG 24" UltraGear 144hz IPS
   - secondary: 1440p LG 27" UltraGear 144hz IPS
