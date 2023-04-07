@@ -25,7 +25,7 @@
 - mouse: Logitech G Pro Superlight
 - keyboard: Ducky One 3 Mini
   - switches: Invyr Holy Panda
-  - keycaps: RedSuns GMK Red Samurai
+  - keycaps: Drop + RedSuns GMK Red Samurai
 - monitors:
   - primary: 1080p LG 24" UltraGear 144hz IPS
   - secondary: 1440p LG 27" UltraGear 144hz IPS
@@ -40,6 +40,6 @@
 
 ## sens
 - dpi: 800
-- source sens: 1.4
-- valo sens: 0.440
-- fortnite sens: 5.5
+- source sens: 0.9
+- valo sens: 0.28
+- fortnite sens: 3.6
