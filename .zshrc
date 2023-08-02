@@ -111,26 +111,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias c=code
-alias py3=python3.11
-function py3-venv {
-    python3.11 -m venv venv && source venv/bin/activate
-}
-
-# create <project name>
-function create {
-    PROJECT_NAME=$1
-    cd ~/projects
-    if [[ -d $PROJECT_NAME ]]; then
-        cd $PROJECT_NAME
-    else
-        mkdir $PROJECT_NAME
-        cd $PROJECT_NAME
-    fi
-    if [[ ! -f "README.md" ]]; then
-        echo "repo for the '$PROJECT_NAME' project" > README.md
-    fi
-    git init && git add -A && git commit -m "initial commit" && gh repo create --source=. --push --private
-}
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
