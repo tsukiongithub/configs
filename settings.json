@@ -1,5 +1,5 @@
 {
-  "extensions.ignoreRecommendations": false,
+  "extensions.ignoreRecommendations": true,
   "workbench.iconTheme": "vscode-icons",
   "editor.codeLens": false,
   "vsicons.dontShowNewVersionMessage": true,
@@ -86,7 +86,7 @@
         }
       ]
     },
-    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA|NOTE)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
       "filterFileRegex": ".*(?<!CHANGELOG.md)$",
       "decorations": [
         {
@@ -104,19 +104,16 @@
   },
   "todo.indentation": "  ",
   "scss.lint.unknownAtRules": "ignore",
-  "prettier.singleAttributePerLine": true,
-  "workbench.colorTheme": "Rosé Pine Moon",
+  "workbench.colorTheme": "Rosé Pine",
   "css.lint.unknownAtRules": "ignore",
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"
   },
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
-    "editor.formatOnType": true,
     "editor.tabSize": 4
   },
   "python.analysis.typeCheckingMode": "basic",
-  "window.zoomLevel": 1,
   "color-highlight.languages": [
     "*"
   ],
@@ -127,4 +124,8 @@
   "editor.unicodeHighlight.includeComments": false,
   "editor.tabSize": 2,
   "editor.wordSeparators": "`~!@#$%^&*()-_=+[{]}\\|;:'\",.<>/?",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": []
+  },
+  "window.zoomLevel": 1,
 }
