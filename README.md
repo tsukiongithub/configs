@@ -1,9 +1,4 @@
-# configs
-my personal dotfiles and configs, all in one place
-
-## zsh
-
-prerequisites:
+# prerequisites
 
 [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
 
