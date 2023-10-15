@@ -1,5 +1,9 @@
 # prerequisites
 
+zsh
+
+tmux
+
 [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
 
 [p10k theme](https://github.com/romkatv/powerlevel10k/blob/master/README.md#oh-my-zsh)
