@@ -127,5 +127,23 @@
   "editor.tokenColorCustomizations": {
     "textMateRules": []
   },
+  "editor.minimap.renderCharacters": false,
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    "classNames",
+    "modifiersClassNames"
+  ],
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "cva\\(([^)(]*(?:\\([^)(]*(?:\\([^)(]*(?:\\([^)(]*\\)[^)(]*)*\\)[^)(]*)*\\)[^)(]*)*)\\)",
+      "\"(.*?)\""
+    ],
+    [
+      "cx\\(([^)(]*(?:\\([^)(]*(?:\\([^)(]*(?:\\([^)(]*\\)[^)(]*)*\\)[^)(]*)*\\)[^)(]*)*)\\)",
+      "\"(.*?)\""
+    ],
+  ],
   "window.zoomLevel": 1,
 }
