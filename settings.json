@@ -14,7 +14,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.linkedEditing": true,
-  "editor.fontFamily": "'DroidSansMono Nerd Font', 'Droid Sans Mono', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'DroidSansM Nerd Font Mono', Consolas, 'Courier New', monospace",
   "prettier.useTabs": true,
   "editor.lineHeight": 1.5,
   "prettier.printWidth": 600,
@@ -39,7 +39,6 @@
   "editor.detectIndentation": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.stickyScroll.enabled": true,
-  "prettier.configPath": "prettier.config.cjs",
   "highlight.regexes": {
     "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
       "filterFileRegex": ".*(?<!CHANGELOG.md)$",
@@ -127,13 +126,15 @@
   "editor.tokenColorCustomizations": {
     "textMateRules": []
   },
+  "window.zoomLevel": 1,
   "editor.minimap.renderCharacters": false,
   "tailwindCSS.classAttributes": [
     "class",
     "className",
     "ngClass",
     "classNames",
-    "modifiersClassNames"
+    "modifiersClassNames",
+    "toastOptions"
   ],
   "tailwindCSS.experimental.classRegex": [
     [
@@ -145,5 +146,12 @@
       "\"(.*?)\""
     ],
   ],
-  "window.zoomLevel": 1,
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.env.linux": {},
+  "terminal.integrated.env.windows": {},
+  "reactSnippets.settings.importReactOnTop": false,
+  "workbench.layoutControl.enabled": false,
 }
