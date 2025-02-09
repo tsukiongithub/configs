@@ -1,8 +1,8 @@
 # prerequisites
 
-zsh
+[zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 
-tmux
+[tmux](https://github.com/tmux/tmux/wiki)
 
 [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
 
