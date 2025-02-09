@@ -174,11 +174,6 @@
     "when": "canNavigateBack"
   },
   {
-    "key": "alt+left",
-    "command": "cursorHome",
-    "when": "textInputFocus"
-  },
-  {
     "key": "home",
     "command": "-cursorHome",
     "when": "textInputFocus"
@@ -204,28 +199,13 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "alt+right",
-    "command": "cursorEnd",
-    "when": "textInputFocus"
-  },
-  {
     "key": "end",
     "command": "-cursorEnd",
     "when": "textInputFocus"
   },
   {
-    "key": "shift+alt+right",
-    "command": "cursorEndSelect",
-    "when": "textInputFocus"
-  },
-  {
     "key": "shift+end",
     "command": "-cursorEndSelect",
-    "when": "textInputFocus"
-  },
-  {
-    "key": "shift+alt+left",
-    "command": "cursorHomeSelect",
     "when": "textInputFocus"
   },
   {
@@ -311,18 +291,9 @@
     "command": "editor.action.goToTypeDefinition"
   },
   {
-    "key": "alt+left",
-    "command": "acceptAlternativeSelectedSuggestion",
-    "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
-  },
-  {
     "key": "shift+tab",
     "command": "-acceptAlternativeSelectedSuggestion",
     "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
-  },
-  {
-    "key": "ctrl+m",
-    "command": "editor.action.toggleTabFocusMode"
   },
   {
     "key": "ctrl+m",
@@ -361,7 +332,7 @@
     "when": "github.copilot.activated && github.copilot.panelVisible"
   },
   {
-    "key": "ctrl+g",
+    "key": "ctrl+shift+g",
     "command": "editor.action.inlineSuggest.trigger",
     "when": "config.github.copilot.inlineSuggest.enable && editorTextFocus && !editorHasSelection && !inlineSuggestionsVisible"
   },
@@ -391,7 +362,77 @@
     "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
   },
   {
-    "key": "ctrl+shift+g",
-    "command": "github.copilot.interactiveEditor.generate"
+    "key": "ctrl+enter",
+    "command": "-workbench.action.chat.insertCodeBlock",
+    "when": "accessibleViewInCodeBlock && hasChatProvider || hasChatProvider && inChat && !inChatInput"
+  },
+  {
+    "key": "ctrl+alt+enter",
+    "command": "-workbench.action.chat.runInTerminal",
+    "when": "accessibleViewInCodeBlock && hasChatProvider || hasChatProvider && inChat"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "-github.copilot.generate",
+    "when": "editorTextFocus && github.copilot.activated && !commentEditorFocused && !inInteractiveInput && !interactiveEditorFocused"
+  },
+  {
+    "key": "end",
+    "command": "cursorEnd",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "home",
+    "command": "cursorHome",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+home",
+    "command": "cursorHomeSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+end",
+    "command": "cursorEndSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "workbench.action.gotoLine"
+  },
+  {
+    "key": "ctrl+alt+right",
+    "command": "-workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "ctrl+alt+left",
+    "command": "-workbench.action.moveEditorToPreviousGroup"
+  },
+  {
+    "key": "ctrl+alt+\\",
+    "command": "editor.emmet.action.matchTag"
+  },
+  {
+    "key": "alt+left",
+    "command": "-workbench.action.terminal.focusPreviousPane",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "alt+right",
+    "command": "-workbench.action.navigateForward",
+    "when": "canNavigateForward"
+  },
+  {
+    "key": "alt+right",
+    "command": "-workbench.action.terminal.focusNextPane",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "alt+right",
+    "command": "workbench.action.navigateForward"
+  },
+  {
+    "key": "alt+left",
+    "command": "workbench.action.navigateBack"
   }
 ]
