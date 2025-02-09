@@ -3,7 +3,7 @@
   "workbench.iconTheme": "vscode-icons",
   "editor.codeLens": false,
   "vsicons.dontShowNewVersionMessage": true,
-  "editor.wordWrap": "on",
+  "editor.wordWrap": "bounded",
   "editor.formatOnSave": true,
   "explorer.confirmDelete": false,
   "terminal.explorerKind": "external",
@@ -14,11 +14,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.linkedEditing": true,
-  "editor.fontFamily": "'DroidSansM Nerd Font Mono', Consolas, 'Courier New', monospace",
   "prettier.useTabs": true,
-  "editor.lineHeight": 1.5,
-  "prettier.printWidth": 600,
-  "python.formatting.provider": "black",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -29,8 +25,7 @@
   "workbench.startupEditor": "none",
   "editor.renderControlCharacters": false,
   "emmet.includeLanguages": {
-    "jinja-html": "html",
-    "postcss": "css"
+    "jinja-html": "html"
   },
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -104,22 +99,12 @@
   "todo.indentation": "  ",
   "scss.lint.unknownAtRules": "ignore",
   "workbench.colorTheme": "Rosé Pine",
-  "css.lint.unknownAtRules": "ignore",
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
-  },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python",
-    "editor.tabSize": 4
-  },
-  "python.analysis.typeCheckingMode": "basic",
   "color-highlight.languages": [
+    "!typescript",
+    "!javascript",
     "*"
   ],
   "color-highlight.matchWords": true,
-  "files.associations": {
-    "*.css": "postcss"
-  },
   "editor.unicodeHighlight.includeComments": false,
   "editor.tabSize": 2,
   "editor.wordSeparators": "`~!@#$%^&*()-_=+[{]}\\|;:'\",.<>/?",
@@ -134,7 +119,9 @@
     "ngClass",
     "classNames",
     "modifiersClassNames",
-    "toastOptions"
+    "toastOptions",
+    "inputClassName",
+    ".*ClassName.*"
   ],
   "tailwindCSS.experimental.classRegex": [
     [
@@ -145,6 +132,18 @@
       "cx\\(([^)(]*(?:\\([^)(]*(?:\\([^)(]*(?:\\([^)(]*\\)[^)(]*)*\\)[^)(]*)*\\)[^)(]*)*)\\)",
       "\"(.*?)\""
     ],
+    [
+      "ClassName \\=([^]*)",
+      "'([^']*)'"
+    ],
+    [
+      "ClassName \\=([^]*)",
+      "\"([^\"]*)\""
+    ],
+    [
+      "ClassName \\=([^]*)",
+      "`([^\\`]*)`"
+    ],
   ],
   "security.allowedUNCHosts": [
     "wsl.localhost"
@@ -154,4 +153,32 @@
   "terminal.integrated.env.windows": {},
   "reactSnippets.settings.importReactOnTop": false,
   "workbench.layoutControl.enabled": false,
+  "css.lint.float": "warning",
+  "css.lint.important": "warning",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "workbench.editor.customLabels.patterns": {
+    "**/{layout,page,route}.{tsx,ts}": "${dirname}/${filename}.${extname}"
+  },
+  "workbench.editorAssociations": {
+    "*.class": "default"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.wordWrapColumn": 100,
+  "editor.accessibilitySupport": "off",
+  "editor.lineHeight": 1.5,
+  "editor.cursorSurroundingLines": 16,
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "workbench.activityBar.location": "hidden",
+  "editor.fontFamily": "'Geist Mono', Consolas, 'Courier New', monospace",
+  "chat.commandCenter.enabled": false,
+  "update.showReleaseNotes": false,
 }
